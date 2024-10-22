@@ -1,0 +1,17 @@
+# Ignore pytest cache
+.pytest_cache/
+__pycache__/
+*.py[cod]
+
+# Ignore virual environments
+venv/
+
+# Ignore Temp files
+*.log
+*.tmp
+
+# Ignore model artifacts
+/model/*.pkl
+
+# Ignore dataset files
+data/
